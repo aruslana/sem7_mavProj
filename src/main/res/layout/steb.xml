@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/steb_topic"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorGreene1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/steb_tv0" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:text="@string/steb_tv1"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorOrange1"
+                    android:layout_marginEnd="45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/steb_tv1" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/steb_spin1"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:text="@string/steb_tv3"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorOrange1"
+                    android:layout_marginEnd="45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/steb_tv2" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/steb_spin2" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:text="@string/steb_tv2"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorOrange1"
+                    android:layout_marginEnd="45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/steb_tv3" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/steb_spin3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/leaf_butb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:layout_gravity="start"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@color/greenTrans"
+                    android:textColor="@color/colorGreeneDark"/>
+
+                <Button
+                    android:id="@+id/leaf_butn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:layout_gravity="end"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@color/greenTrans"
+                    android:textColor="@color/colorGreeneDark"/>
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+</LinearLayout>

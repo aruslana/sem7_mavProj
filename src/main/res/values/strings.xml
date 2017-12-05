@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Travki</string>
+    <string name="main_topic">Выберите правильные настройки для поиска</string>
+    <string name="main_but0">СТЕБЕЛЬ</string>
+    <string name="main_but1">ЛИСТ</string>
+    <string name="main_but2">ЦВЕТЫ</string>
+    <string name="main_but3">ЦВЕТОК</string>
+    <string name="steb_topic">Критерии стебля</string>
+    <string name="steb_tv1">Структура</string>
+    <string name="steb_tv2">Расположение листьев</string>
+    <string name="steb_tv3">Типы</string>
+    <string name="leaf_topic">Критерии листа</string>
+    <string name="leaf_tv1">Типы</string>
+    <string name="leaf_tv2">Прикрепление к стеблю</string>
+    <string name="leaf_tv3">Форма</string>
+    <string name="next">Далее</string>
+    <string name="back">Назад</string>
+</resources>

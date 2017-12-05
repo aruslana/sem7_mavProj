@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ru.nsu.ccfit.alex.travki</groupId>
+    <artifactId>gs-maven-android</artifactId>
+    <version>0.1.0</version>
+    <packaging>apk</packaging>
+
+    <properties>
+        <!-- use UTF-8 for everything -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+
+    <repositories>
+        <repository>
+            <id>android-support</id>
+            <url>file:///home/alexandra/Android/Sdk/extras/android/m2repository</url>
+        </repository>
+    </repositories>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>4.1.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+<dependency>
+    <groupId>com.android.support</groupId>
+    <artifactId>appcompat-v7</artifactId>
+    <version>22.1.0</version>
+    <type>aar</type>
+</dependency>
+
+<dependency>
+    <groupId>com.android.support</groupId>
+    <artifactId>support-v4</artifactId>
+    <version>22.1.0</version>
+    <type>aar</type>
+</dependency>
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.5.0</version>
+                <configuration>
+                    <sdk>
+			<path>/home/alexandra/Android/Sdk</path>
+                        <platform>22</platform>
+                    </sdk>
+                    <deleteConflictingFiles>true</deleteConflictingFiles>
+                    <undeployBeforeDeploy>true</undeployBeforeDeploy>
+                </configuration>
+                <extensions>true</extensions>
+
+            </plugin>
+            <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
