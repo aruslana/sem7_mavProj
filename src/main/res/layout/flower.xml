@@ -4,16 +4,16 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="@string/steb_topic"
+        android:id="@+id/flow_tv0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/flow_topic"
         android:textSize="40sp"
         android:textStyle="italic"
         android:textColor="@color/colorGreene1"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="45dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/steb_tv0" />
+        android:layout_marginBottom="45dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
 
                 <TableLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <TableRow
                         android:layout_width="match_parent"
@@ -39,17 +39,17 @@
                         android:layout_marginStart="20dp">
 
                         <TextView
-                            android:id="@+id/steb_tv1"
+                            android:id="@+id/flow_tv1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="45dp"
-                            android:text="@string/steb_tv1"
+                            android:text="@string/flow_tv1"
                             android:textColor="@color/colorOrange1"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
                         <Spinner
-                            android:id="@+id/steb_spin1"
+                            android:id="@+id/flow_spin1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
                     </TableRow>
@@ -61,44 +61,21 @@
                         android:layout_marginStart="20dp">
 
                         <TextView
-                            android:id="@+id/steb_tv2"
+                            android:id="@+id/flow_tv2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="45dp"
-                            android:text="@string/steb_tv3"
+                            android:text="@string/flow_tv2"
                             android:textColor="@color/colorOrange1"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
                         <Spinner
-                            android:id="@+id/steb_spin2"
+                            android:id="@+id/flow_spin2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
-
                     </TableRow>
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginBottom="50dp"
-                        android:layout_marginStart="20dp">
-
-                        <TextView
-                            android:id="@+id/steb_tv3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginEnd="45dp"
-                            android:text="@string/steb_tv2"
-                            android:textColor="@color/colorOrange1"
-                            android:textSize="30sp"
-                            android:textStyle="bold" />
-
-                        <Spinner
-                            android:id="@+id/steb_spin3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
-
-                    </TableRow>
 
                     <TableRow
                         android:layout_width="match_parent"
@@ -108,7 +85,7 @@
                         android:layout_marginTop="50dp">
 
                         <Button
-                            android:id="@+id/leaf_butb"
+                            android:id="@+id/flow_butb"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start"
@@ -119,7 +96,7 @@
                             android:textStyle="bold" />
 
                         <Button
-                            android:id="@+id/leaf_butn"
+                            android:id="@+id/flow_butn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="end"

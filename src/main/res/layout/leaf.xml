@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/leaf_tv0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/leaf_topic"
@@ -15,111 +15,120 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="45dp"/>
 
-    <HorizontalScrollView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-            <TableRow
+            <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:layout_marginBottom="50dp">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/textView2"
+                <TableLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/leaf_tv1"
-                    android:textSize="30sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorOrange1"
-                    android:layout_marginEnd="45dp"/>
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="20dp">
 
-                <Spinner
-                    android:id="@+id/leaf_spin1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="50dp">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:layout_marginBottom="50dp">
+                        <TextView
+                            android:id="@+id/leaf_tv1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="45dp"
+                            android:text="@string/leaf_tv1"
+                            android:textColor="@color/colorOrange1"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/leaf_tv2"
-                    android:textSize="30sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorOrange1"
-                    android:layout_marginEnd="45dp"/>
+                        <Spinner
+                            android:id="@+id/leaf_spin1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
 
-                <Spinner
-                    android:id="@+id/leaf_spin2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="50dp">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:layout_marginBottom="50dp">
+                        <TextView
+                            android:id="@+id/leaf_tv2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="45dp"
+                            android:text="@string/leaf_tv2"
+                            android:textColor="@color/colorOrange1"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/leaf_tv3"
-                    android:textSize="30sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colorOrange1"
-                    android:layout_marginEnd="45dp"/>
+                        <Spinner
+                            android:id="@+id/leaf_spin2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
 
-                <Spinner
-                    android:id="@+id/leaf_spin3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="50dp">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:layout_marginBottom="50dp"
-                android:layout_marginTop="50dp">
+                        <TextView
+                            android:id="@+id/leaf_tv3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="45dp"
+                            android:text="@string/leaf_tv3"
+                            android:textColor="@color/colorOrange1"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
 
-                <Button
-                    android:id="@+id/leaf_butb"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/back"
-                    android:layout_gravity="start"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:background="@color/greenTrans"
-                    android:textColor="@color/colorGreeneDark"/>
+                        <Spinner
+                            android:id="@+id/leaf_spin3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
 
-                <Button
-                    android:id="@+id/leaf_butn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/next"
-                    android:layout_gravity="end"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:background="@color/greenTrans"
-                    android:textColor="@color/colorGreeneDark"/>
-            </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginTop="50dp">
 
-        </TableLayout>
-    </HorizontalScrollView>
+                        <Button
+                            android:id="@+id/leaf_butb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:background="@color/greenTrans"
+                            android:text="@string/back"
+                            android:textColor="@color/colorGreeneDark"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/leaf_butn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:background="@color/greenTrans"
+                            android:text="@string/next"
+                            android:textColor="@color/colorGreeneDark"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                </TableLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
