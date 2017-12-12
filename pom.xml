@@ -36,12 +36,14 @@
     <groupId>com.android.support</groupId>
     <artifactId>appcompat-v7</artifactId>
     <version>22.1.0</version>
+    <type>aar</type>
 </dependency>
 
 <dependency>
     <groupId>com.android.support</groupId>
     <artifactId>support-v4</artifactId>
     <version>22.1.0</version>
+    <type>aar</type>
 </dependency>
 
 
