@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -25,7 +25,7 @@ import ru.nsu.ccfit.alex.travki.tools.SpinnerAdapter;
  * Created by alexandra on 12.11.17.
  */
 
-public class Leaf extends AppCompatActivity {
+public class Leaf extends Activity {
     private Spinner spin1, spin2, spin3;
     private Button but_back, but_next;
     private DBHelper dbHelper;

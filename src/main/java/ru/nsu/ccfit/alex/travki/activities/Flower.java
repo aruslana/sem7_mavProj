@@ -3,7 +3,7 @@ package ru.nsu.ccfit.alex.travki.activities;
 import android.content.Intent;
 import android.database.SQLException;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -20,7 +20,7 @@ import ru.nsu.ccfit.alex.travki.R;
  * Created by alexandra on 26.11.17.
  */
 
-public class Flower extends AppCompatActivity {
+public class Flower extends Activity {
     private Spinner spin1, spin2;
     private Button but_back, but_next;
     private DBHelper dbHelper;

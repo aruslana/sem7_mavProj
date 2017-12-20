@@ -1,14 +1,14 @@
 package ru.nsu.ccfit.alex.travki.activities;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import ru.nsu.ccfit.alex.travki.R;
 
-public class Main extends AppCompatActivity {
+public class Main extends Activity {
     private Button steb, leaf, flow;
 
     @Override

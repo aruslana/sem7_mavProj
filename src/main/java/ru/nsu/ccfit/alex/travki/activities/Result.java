@@ -8,7 +8,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,7 +31,7 @@ import ru.nsu.ccfit.alex.travki.db.ElemForDB;
  * Created by alexandra on 28.11.17.
  */
 
-public class Result extends AppCompatActivity {
+public class Result extends Activity {
     private Button but_back, but_next;
     private DBHelper dbHelper;
     private DataForDB dataDB = DataForDB.getInstance();
