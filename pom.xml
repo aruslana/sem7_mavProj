@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>ru.nsu.ccfit.alex.travki</groupId>
-    <artifactId>gs-maven-android</artifactId>
+    <groupId>ru.nsu.ccfit.travki</groupId>
+    <artifactId>guess-plant</artifactId>
     <version>0.1.0</version>
     <packaging>apk</packaging>
 
@@ -14,7 +14,7 @@
         <!-- Optional URL to server. Default value is http://localhost:9000 -->
         <sonar.host.url>http://84.237.50.237:8083</sonar.host.url>
         <sonar.project.key>guess-plant</sonar.project.key>
-        <sonar.junit.reportPaths>target/test-reports</sonar.junit.reportPaths>
+        <sonar.junit.reportPaths>target/surefire-reports</sonar.junit.reportPaths>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <jacoco.version>0.7.2.201409121644</jacoco.version>
         <sonar-jacoco-listeners.version>1.4</sonar-jacoco-listeners.version>
