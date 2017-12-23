@@ -38,7 +38,6 @@
                 <version>4.5.0</version>
                 <configuration>
                     <sdk>
-			<path>${env.ANDROID_HOME}</path>
                         <platform>22</platform>
                     </sdk>
                     <deleteConflictingFiles>true</deleteConflictingFiles>
